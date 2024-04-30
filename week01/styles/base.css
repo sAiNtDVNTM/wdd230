@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+* {
+    margin: 0;
+	padding: 4px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Jersey 10', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px; /* Set base font size */
+}
+
+header {
+	background-color: gray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+p {
+	line-height: 1;
+}
+
+a {
+	color: rgb(103, 187, 103);
+}
+
+/* Larger Views */
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+}
+
+nav {
+	background-color: black;
+    text-align: center;
+	
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav a {
+	display: ruby;
+	color: green;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.title1 {
+    text-decoration: underline;
+}
+
+.firsttitle {
+    background-color: green;
+    text-align: center;
+}
+.secondtitle {
+    background-color: green;
+    text-align: center;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    display: block;
+    padding: .75rem 0;
+
+}
+.card {
+    text-align: center;
+}
+.parent section {
+    border: 1px solid black;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+    box-shadow: 2px 2px 10px black;
+    list-style-type: none;
+}
+.parent p {
+    padding: 10px;
+}
+.parent {
+    margin: 1rem 2vh;
+}
+
+
+
+
+@media (min-width: 768px) {
+	/* These styles will be applied to larger screens */
+	body {
+		font-size: 18px; /* Increase font size for larger views */
+	}
+	.container {
+		padding: 20px; /* Add padding to the container for larger views */
+	}
+}
