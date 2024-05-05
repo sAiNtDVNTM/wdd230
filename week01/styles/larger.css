@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   body {
     font-size: 16px;
   }
@@ -18,5 +18,17 @@
     box-shadow: 1px 1px 10px black;
     margin: 5px;
   }
+  #hamburger {
+    display: none;
+  }
 
+  nav {grid-template-rows: 1fr;}
+  ul.menuLinks, ul.menuLinks.open {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  ul.menuLinks a:hover {
+    background-color: rgb(29, 27, 27);
+  }
 }
