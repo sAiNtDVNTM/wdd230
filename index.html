@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="stylesheet" href="week03/styles/responsive-images.css" />
     <link rel="icon" href="images/favicon.ico" />
   </head>
   <body>
@@ -55,6 +56,28 @@
         <li><a href="#">Form</a></li>
       </ul>
     </nav>
+    <div class="hero">
+      <picture>
+        <source
+          srcset="week03/images/temple-hero-image-small.webp"
+          media="(max-width: 400px)"
+        />
+        <source
+          srcset="week03/images/temple-hero-image-medium.webp"
+          media="(max-width: 960px)"
+        />
+        <img
+          src="week03/images/temple-hero-image-large.webp"
+          alt="temple"
+          width="1500"
+          height="750"
+        />
+      </picture>
+      <div class="herolabel">
+        <p>Aba Nigeria Temple</p>
+      </div>
+    </div>
+    </div>
     <main>
       <h2 class="title1">WDD 230 Web Frontend Development</h2>
       <div class="parent">
@@ -88,10 +111,14 @@
         <section class="card">
           <h2 class="secondtitle">Information</h2>
           <p>Guatemala, Guatemala</p>
-          <p>Lorem ipsum dolor sit.</p>
-          <p>Page visit: 15</p>
+          <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        </main>
         </section>
       </div>
+      <div class="iframe-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1851.0400388067965!2d-90.52296777692354!3d14.55174944983504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a41ceae92cc7%3A0x84aec989633f8a64!2sLiceo%20Manuel%20Galich!5e0!3m2!1ses-419!2sgt!4v1715925274652!5m2!1ses-419!2sgt" 
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     </main>
     <footer>
       <p id="copyright">
