@@ -513,7 +513,7 @@ button:hover {
 
 .content {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
@@ -531,12 +531,49 @@ button:hover {
 }
 
 /* Responsive layout */
-@media screen and (max-width: 1565px) {
+@media screen and (max-width: 700px) {
   #picturesdiscover {
     grid-template-columns: 1fr;
   }
 
   .content {
     grid-template-columns: 1fr;
+  }
+}
+
+.sidebar {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar p {
+  font-size: 16px;
+  color: #333;
+}
+
+.visit-message {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #0073e6;
+}
+.content .image img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.content .image img:hover {
+  transform: scale(1.1);
+  filter: brightness(0.8);
+}
+
+/* Media query to disable hover effect on mobile */
+@media (max-width: 768px) {
+  .content .image img:hover {
+    transform: none;
+    filter: none;
   }
 }
