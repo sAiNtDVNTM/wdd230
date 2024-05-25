@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Focus effect on table rows */
+tbody tr:focus {
+    outline: 2px solid black;
+    background-color: #d0d0d0;
+}
+
+/* Apply font weight to the second row (Feature 2) */
+tbody tr:nth-child(2) {
+    font-weight: bold;
+    border: 0.5px solid rgb(164, 164, 164);
+}
+tbody tr:first-child {
+    font-weight: bold;
+    border: 0.5px solid rgb(164, 164, 164);
+}
+tbody tr:last-child {
+    font-weight: bold;
+    border: 0.5px solid rgb(164, 164, 164);
+}
+tbody td:last-child {
+    border: 0.5px solid rgb(164, 164, 164);
+}
+tbody td:first-child {
+    border: 0.5px solid rgb(164, 164, 164);
+}
+tbody td:nth-child(2) {
+    border: 0.5px solid rgb(164, 164, 164);
+}
+th:nth-child(2),
+th:nth-child(3),
+th:nth-child(4) {
+    background-color: rgb(63, 63, 63);
+}
+caption {
+    caption-side: bottom;
+    margin-top: 5px;
+}
