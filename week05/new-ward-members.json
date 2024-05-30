@@ -1,0 +1,18 @@
+{
+    "familyName" : "Oliva",
+    "arriveDate" : 2016,
+    "familyNumber" : 2,
+    "visitByBishopric" : true,
+    "individualFamilyMembers" : [
+        {
+            "name" : "Joseph",
+            "gender" : "Male",
+            "birthdate" : 1999
+        },
+        {
+            "name" : "Rosa",
+            "gender" : "Female",
+            "birthdate" : 1967 
+        }
+    ]
+}
