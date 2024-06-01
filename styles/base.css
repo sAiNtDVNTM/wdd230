@@ -182,3 +182,6 @@ body {
 	top: 1.5vw;
 	left: 1.5vw;
   }
+  .card #description {
+	text-transform: capitalize;
+  }
