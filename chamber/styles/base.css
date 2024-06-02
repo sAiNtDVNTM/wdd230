@@ -473,7 +473,6 @@ button:hover {
 
 @media (max-width: 768px) {
   #secondtitle {
-    position: static;
     margin-top: 0;
   }
 }
@@ -714,4 +713,63 @@ form input[type="submit"]:hover {
 #membership-benefits li {
     margin-bottom: 10px;
     color: var(--main-color);
+}
+
+/*Directory.html*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#toggleView {
+  margin-bottom: 20px;
+}
+
+#memberContainer.grid-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.member-card, .member-list-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.member-card img, .member-list-item img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.member-list-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.member-list-item div {
+  text-align: left;
+}
+
+.member-list-item img {
+  margin-right: 20px;
+}
+
+.member-info {
+  margin-top: 10px;
+}
+
+.member-info p {
+  margin: 4px 0;
 }

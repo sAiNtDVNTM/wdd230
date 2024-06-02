@@ -1,0 +1,65 @@
+[
+    {
+        "name": "SSD",
+        "address": "123 First St, City, Country",
+        "phone": "123-456-7890",
+        "website": "https://companyone.com",
+        "image": "2.webp",
+        "membership_level": "Gold",
+        "other_info": "Specializes in software development"
+    },
+    {
+        "name": "ECC",
+        "address": "456 Second St, City, Country",
+        "phone": "234-567-8901",
+        "website": "https://companytwo.com",
+        "image": "1.webp",
+        "membership_level": "Silver",
+        "other_info": "Expert in cloud computing"
+    },
+    {
+        "name": "LCY",
+        "address": "789 Third St, City, Country",
+        "phone": "345-678-9012",
+        "website": "https://companythree.com",
+        "image": "3.webp",
+        "membership_level": "Bronze",
+        "other_info": "Leading in cybersecurity"
+    },
+    {
+        "name": "IAIS",
+        "address": "101 First St, City, Country",
+        "phone": "456-789-0123",
+        "website": "https://companyfour.com",
+        "image": "4.jpg",
+        "membership_level": "Gold",
+        "other_info": "Innovative AI solutions"
+    },
+    {
+        "name": "PBlock",
+        "address": "202 Second St, City, Country",
+        "phone": "567-890-1234",
+        "website": "https://companyfive.com",
+        "image": "5.webp",
+        "membership_level": "Silver",
+        "other_info": "Pioneers in blockchain"
+    },
+    {
+        "name": "EX IoT",
+        "address": "303 Third St, City, Country",
+        "phone": "678-901-2345",
+        "website": "https://companysix.com",
+        "image": "6.jpeg",
+        "membership_level": "Bronze",
+        "other_info": "Experts in IoT"
+    },
+    {
+        "name": "Mobile Dev",
+        "address": "404 Fourth St, City, Country",
+        "phone": "789-012-3456",
+        "website": "https://companyseven.com",
+        "image": "7.jpg",
+        "membership_level": "Gold",
+        "other_info": "Top mobile app developers"
+    }
+]

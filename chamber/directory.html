@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>The GTChamber of Commerce</title>
     <meta property="og:title" content="The Chamber of Commerce" />
+
     <meta name="description" content="Chamber of Commerce in Guatemala" />
     <meta
       property="og:url"
@@ -15,17 +16,20 @@
       content="https://blog.uber-cdn.com/cdn-cgi/image/width=768,quality=80,onerror=redirect,format=auto/wp-content/uploads/2018/12/Barrios-de-la-Ciudad-de-Guatemala-cuyas-vistas-te-enamorar%C3%A1n.jpg"
     />
     <meta property="og:type" content="website" />
+
     <meta name="author" content="Joseph Oliva" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/larger.css" />
     <link rel="icon" href="images/favicon1.ico" />
   </head>
+
   <body>
     <header id="home">
       <img
@@ -36,6 +40,7 @@
       />
       <h1 id="title1">THE "GT" CHAMBER OF COMMERCE.</h1>
     </header>
+
     <nav id="anime">
       <button id="myButton"></button>
       <ul class="menuLinks">
@@ -45,80 +50,13 @@
         <li><a href="join.html">Join</a></li>
       </ul>
     </nav>
-    <h1 id="discover">DISCOVER.</h1>
-    <div id="picturesdiscover">
-      <div class="sidebar">
-        <h2>Chamber images</h2>
-        <p>Here you can find some pictures about the chamber of commerce.</p>
-        <br />
-        <h2>Guatemala pictures</h2>
-        <p>These photos were taken in Guatemala City.</p>
-        <br />
-        <h2>ENJOY THE VIEW!</h2>
-        <section class="card">
-          <h2 class="secondtitle"></h2>
-          <p><span class="label"></span><span class="visits"></span></p>
-        </section>
-        <p class="visit-message"></p>
+    <main>
+      <div class="container">
+        <h1>Member Directory</h1>
+        <button id="toggleView">Toggle View</button>
+        <div id="memberContainer" class="grid-view"></div>
       </div>
-
-      <div class="content">
-        <picture class="image fakeimg">
-          <img
-            src="images/commerce1.jpg"
-            alt="Fruits"
-            loading="lazy"
-            width="400"
-            height="600"
-          />
-        </picture>
-        <picture class="image fakeimg">
-          <img
-            src="images/commerce2.jpg"
-            alt="city"
-            loading="lazy"
-            width="400"
-            height="600"
-          />
-        </picture>
-        <picture class="image fakeimg">
-          <img
-            src="images/commerce3.jpg"
-            alt="capital"
-            loading="lazy"
-            width="400"
-            height="600"
-          />
-        </picture>
-        <picture class="image fakeimg">
-          <img
-            src="images/commerce4.jpg"
-            alt="wano city"
-            loading="lazy"
-            width="400"
-            height="600"
-          />
-        </picture>
-        <picture class="image fakeimg">
-          <img
-            src="images/commerce5.jpg"
-            alt="money"
-            loading="lazy"
-            width="400"
-            height="600"
-          />
-        </picture>
-        <picture class="image fakeimg">
-          <img
-            src="images/commerce6.jpg"
-            alt="commerce"
-            loading="lazy"
-            width="400"
-            height="600"
-          />
-        </picture>
-      </div>
-    </div>
+    </main>
     <footer>
       <h3 id="footertitle">The GTChamber Of Commerce</h3>
       <p id="copyright">
@@ -129,6 +67,6 @@
       <p id="lastModified"></p>
     </footer>
     <script src="scripts/base.js"></script>
-    <script src="scripts/localstorage.js"></script>
+    <script src="scripts/directory.js"></script>
   </body>
 </html>
